@@ -1,9 +1,10 @@
 import React from "react";
+import Navbar from "../components/Navbar";
 
 function Errorpage() {
   return (
     <div>
-
+      <Navbar />
       <div>
         <div className="flex w-full h-screen items-center justify-center">
           <h1>Hello</h1>
